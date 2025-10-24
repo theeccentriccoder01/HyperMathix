@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Sagnik's HyperMathix</title>
@@ -10,15 +11,18 @@
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-title" content="HyperMathix" />
   <link rel="manifest" href="favicon/site.webmanifest" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Orbitron:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <!-- Cosmic Background Elements -->
   <div class="cosmic-background"></div>
   <div class="stellar-field"></div>
   <div class="quantum-grid"></div>
   <div class="energy-waves"></div>
-  
+
   <!-- Neural Network Overlay -->
   <div class="neural-network">
     <div class="neural-node"></div>
@@ -27,17 +31,17 @@
     <div class="neural-connection"></div>
     <div class="neural-connection"></div>
   </div>
-  
+
   <div id="calculator">
     <!-- Holographic Border -->
     <div class="holographic-border"></div>
-    
+
     <div class="calculator-header">
       <div class="quantum-signature">
         <div class="dna-helix"></div>
         <div class="orbit-ring"></div>
       </div>
-      
+
       <div class="header-constellation">
         <div class="constellation-dot"></div>
         <div class="constellation-dot"></div>
@@ -45,13 +49,15 @@
         <div class="constellation-line"></div>
         <div class="constellation-line"></div>
       </div>
-      
+
       <h1 class="calculator-title">
         <span class="title-glow">SAGNIK'S</span>
-        <img src="HyperMathixLogo.jpg" alt="H" style="height: 4rem; transform: translateY(10px); margin-right: -4px;"><span class="title-main">YPERMATHIX</span>
+        <img src="HyperMathixLogo.jpg" alt="H"
+          style="height: 4rem; transform: translateY(10px); margin-right: -4px;"><span
+          class="title-main">YPERMATHIX</span>
         <div class="title-underline"></div>
       </h1>
-      
+
       <div class="power-indicator">
         <div class="quantum-core">
           <div class="core-ring"></div>
@@ -69,11 +75,12 @@
         </div>
       </div>
     </div>
-    
+
     <div class="mode-selector">
       <div class="mode-scanner"></div>
       <div class="mode-slider"></div>
-      
+
+
       <button class="mode-btn active" data-mode="arithmetic">
         <div class="mode-icon">
           <div class="icon-geometric">
@@ -84,7 +91,7 @@
         <span class="mode-label">BASIC</span>
         <div class="mode-energy"></div>
       </button>
-      
+
       <button class="mode-btn" data-mode="scientific">
         <div class="mode-icon">
           <div class="icon-atomic">
@@ -96,7 +103,7 @@
         <span class="mode-label">SCIENTIFIC</span>
         <div class="mode-energy"></div>
       </button>
-      
+
       <button class="mode-btn" data-mode="equations">
         <div class="mode-icon">
           <div class="icon-formula">
@@ -107,7 +114,7 @@
         <span class="mode-label">EQUATIONS</span>
         <div class="mode-energy"></div>
       </button>
-      
+
       <button class="mode-btn" data-mode="graphing">
         <div class="mode-icon">
           <div class="icon-wave">
@@ -118,7 +125,7 @@
         <span class="mode-label">GRAPHING</span>
         <div class="mode-energy"></div>
       </button>
-      
+
       <button class="mode-btn" data-mode="matrices">
         <div class="mode-icon">
           <div class="icon-matrix">
@@ -130,12 +137,12 @@
         <div class="mode-energy"></div>
       </button>
     </div>
-    
+
     <div class="display-container">
       <div class="display-frame">
         <div class="hologram-overlay"></div>
         <div class="scan-line"></div>
-        
+
         <div class="display-header">
           <div class="tensor-indicators">
             <div class="tensor-dot active"></div>
@@ -146,10 +153,10 @@
             <span>X₄ : Y₄ : Z₄ : T₁</span>
           </div>
         </div>
-        
+
         <div class="display" id="display">0</div>
         <div class="display-cursor"></div>
-        
+
         <div class="quantum-readout">
           <div class="readout-left">
             <div class="probability-cloud">
@@ -164,7 +171,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="display-info">
         <div class="precision-container">
           <div class="precision-indicator">
@@ -172,7 +179,7 @@
             <span class="precision-value">64-BIT QUANTUM</span>
           </div>
         </div>
-        
+
         <div class="spacetime-metrics">
           <div class="metric">
             <span class="metric-label">PLANCK TIME</span>
@@ -181,7 +188,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Arithmetic Mode (Default) -->
     <div class="calculator-mode active" id="arithmetic-mode">
       <div class="mode-ambient-glow"></div>
@@ -192,224 +199,224 @@
           <span class="btn-symbol">9</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="8">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">8</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="7">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">7</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="6">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">6</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="5">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">5</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="4">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">4</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="3">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">3</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="2">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">2</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="1">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">1</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-variable" value="x">
           <div class="btn-core variable-core"></div>
           <div class="btn-energy-field variable-field"></div>
           <span class="btn-symbol">x</span>
           <div class="btn-particle-trail variable-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="0">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">0</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-complex" value="i">
           <div class="btn-core complex-core"></div>
           <div class="btn-energy-field complex-field"></div>
           <span class="btn-symbol">i</span>
           <div class="btn-particle-trail complex-trail"></div>
         </button>
-        
+
         <button class="btn btn-clear operator" value="clear">
           <div class="btn-core clear-core"></div>
           <div class="btn-energy-field clear-field"></div>
           <span class="btn-symbol">C</span>
           <div class="btn-warning-glow"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="backspace">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⌫</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="left">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⭠</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="right">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⭢</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="(">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">(</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value=")">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">)</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="%">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">%</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="/">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">÷</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="^">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">x<sup>y</sup></span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="sqrt">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">√</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="log">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">log</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="ln">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">ln</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="*">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">×</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="-">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">−</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="+">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">+</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="abs">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">|x|</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="arg">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">arg</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="conj">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">x̅</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value=".">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">.</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-equals operator" value="=">
           <div class="btn-core equals-core"></div>
           <div class="btn-energy-field equals-field"></div>
           <span class="btn-symbol">=</span>
           <div class="btn-quantum-burst"></div>
         </button>
-        
+
         <button class="btn btn-solve operator" value="solve">
           <div class="btn-core solve-core"></div>
           <div class="btn-energy-field solve-field"></div>
@@ -418,7 +425,7 @@
         </button>
       </div>
     </div>
-    
+
     <!-- Equation Solver Mode -->
     <div class="calculator-mode" id="equations-mode">
       <div class="mode-ambient-glow equation-glow"></div>
@@ -429,42 +436,42 @@
           <span class="btn-symbol">x²</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="x³">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">x³</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="x^y">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">x<sup>y</sup></span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="e^x">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">e<sup>x</sup></span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="ln(x)">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">ln(x)</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="log(x)">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">log(x)</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <!-- Numbers and other buttons follow same pattern -->
         <button class="btn btn-number" value="9">
           <div class="btn-core"></div>
@@ -472,196 +479,196 @@
           <span class="btn-symbol">9</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="8">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">8</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="7">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">7</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="6">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">6</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="5">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">5</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="4">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">4</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="3">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">3</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="2">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">2</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="1">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">1</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-variable" value="x">
           <div class="btn-core variable-core"></div>
           <div class="btn-energy-field variable-field"></div>
           <span class="btn-symbol">x</span>
           <div class="btn-particle-trail variable-trail"></div>
         </button>
-        
+
         <button class="btn btn-variable" value="y">
           <div class="btn-core variable-core"></div>
           <div class="btn-energy-field variable-field"></div>
           <span class="btn-symbol">y</span>
           <div class="btn-particle-trail variable-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="0">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">0</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-complex" value="i">
           <div class="btn-core complex-core"></div>
           <div class="btn-energy-field complex-field"></div>
           <span class="btn-symbol">i</span>
           <div class="btn-particle-trail complex-trail"></div>
         </button>
-        
+
         <button class="btn btn-clear operator" value="clear">
           <div class="btn-core clear-core"></div>
           <div class="btn-energy-field clear-field"></div>
           <span class="btn-symbol">C</span>
           <div class="btn-warning-glow"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="backspace">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⌫</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="left">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⭠</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="right">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⭢</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="(">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">(</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value=")">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">)</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="/">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">÷</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="*">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">×</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="-">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">−</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="+">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">+</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="^">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">^</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value=".">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">.</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-equals operator" value="=">
           <div class="btn-core equals-core"></div>
           <div class="btn-energy-field equals-field"></div>
           <span class="btn-symbol">=</span>
           <div class="btn-quantum-burst"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="ln">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">ln</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="log">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">log</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-solve operator" value="solve-eq">
           <div class="btn-core solve-core"></div>
           <div class="btn-energy-field solve-field"></div>
@@ -670,7 +677,7 @@
         </button>
       </div>
     </div>
-    
+
     <!-- Graphing Mode -->
     <div class="calculator-mode" id="graphing-mode">
       <div class="mode-ambient-glow graph-glow"></div>
@@ -696,12 +703,12 @@
           </div>
         </div>
       </div>
-      
+
       <div class="display" id="graph-display">
         <div class="function-prefix">f(x) = </div>
         <div class="function-input"></div>
       </div>
-      
+
       <div class="buttons">
         <button class="btn btn-function" value="sin(x)">
           <div class="btn-core function-core"></div>
@@ -709,196 +716,196 @@
           <span class="btn-symbol">sin(x)</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="cos(x)">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">cos(x)</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="tan(x)">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">tan(x)</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="e^x">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">e<sup>x</sup></span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="ln(x)">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">ln(x)</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="√x">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">√x</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-clear operator" value="clear-graph">
           <div class="btn-core clear-core"></div>
           <div class="btn-energy-field clear-field"></div>
           <span class="btn-symbol">CLEAR</span>
           <div class="btn-warning-glow"></div>
         </button>
-        
+
         <button class="btn btn-control operator" value="zoom-in">
           <div class="btn-core control-core"></div>
           <div class="btn-energy-field control-field"></div>
           <span class="btn-symbol">Z+</span>
           <div class="btn-particle-trail control-trail"></div>
         </button>
-        
+
         <button class="btn btn-control operator" value="zoom-out">
           <div class="btn-core control-core"></div>
           <div class="btn-energy-field control-field"></div>
           <span class="btn-symbol">Z−</span>
           <div class="btn-particle-trail control-trail"></div>
         </button>
-        
+
         <button class="btn btn-control operator" value="pan-left">
           <div class="btn-core control-core"></div>
           <div class="btn-energy-field control-field"></div>
           <span class="btn-symbol">←</span>
           <div class="btn-particle-trail control-trail"></div>
         </button>
-        
+
         <button class="btn btn-control operator" value="pan-right">
           <div class="btn-core control-core"></div>
           <div class="btn-energy-field control-field"></div>
           <span class="btn-symbol">→</span>
           <div class="btn-particle-trail control-trail"></div>
         </button>
-        
+
         <button class="btn btn-control operator" value="pan-up">
           <div class="btn-core control-core"></div>
           <div class="btn-energy-field control-field"></div>
           <span class="btn-symbol">↑</span>
           <div class="btn-particle-trail control-trail"></div>
         </button>
-        
+
         <button class="btn btn-control operator" value="pan-down">
           <div class="btn-core control-core"></div>
           <div class="btn-energy-field control-field"></div>
           <span class="btn-symbol">↓</span>
           <div class="btn-particle-trail control-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="1">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">1</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="2">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">2</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="3">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">3</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="4">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">4</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="5">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">5</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="6">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">6</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="7">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">7</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="8">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">8</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="9">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">9</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="0">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">0</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator" value=".">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">.</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-variable" value="x">
           <div class="btn-core variable-core"></div>
           <div class="btn-energy-field variable-field"></div>
           <span class="btn-symbol">x</span>
           <div class="btn-particle-trail variable-trail"></div>
         </button>
-        
+
         <button class="btn btn-function" value="^">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">^</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator" value="(">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">(</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator" value=")">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">)</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-graph operator" value="graph-it">
           <div class="btn-core graph-core"></div>
           <div class="btn-energy-field graph-field"></div>
@@ -907,7 +914,7 @@
         </button>
       </div>
     </div>
-    
+
     <!-- Scientific Mode -->
     <div class="calculator-mode" id="scientific-mode">
       <div class="mode-ambient-glow scientific-glow"></div>
@@ -918,266 +925,266 @@
           <span class="btn-symbol">9</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="8">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">8</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="7">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">7</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="6">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">6</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="5">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">5</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="4">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">4</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="3">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">3</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="2">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">2</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="1">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">1</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-variable" value="x">
           <div class="btn-core variable-core"></div>
           <div class="btn-energy-field variable-field"></div>
           <span class="btn-symbol">x</span>
           <div class="btn-particle-trail variable-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="0">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">0</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-complex" value="i">
           <div class="btn-core complex-core"></div>
           <div class="btn-energy-field complex-field"></div>
           <span class="btn-symbol">i</span>
           <div class="btn-particle-trail complex-trail"></div>
         </button>
-        
+
         <button class="btn btn-clear operator" value="clear">
           <div class="btn-core clear-core"></div>
           <div class="btn-energy-field clear-field"></div>
           <span class="btn-symbol">C</span>
           <div class="btn-warning-glow"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="backspace">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⌫</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="left">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⭠</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="right">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">⭢</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="(">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">(</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value=")">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">)</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="%">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">%</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="/">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">÷</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="^">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">x<sup>y</sup></span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="sqrt">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">√</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="log">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">log</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="ln">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">ln</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="*">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">×</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="-">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">−</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value="+">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">+</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-trig operator" value="sin">
           <div class="btn-core trig-core"></div>
           <div class="btn-energy-field trig-field"></div>
           <span class="btn-symbol">sin</span>
           <div class="btn-particle-trail trig-trail"></div>
         </button>
-        
+
         <button class="btn btn-trig operator" value="cos">
           <div class="btn-core trig-core"></div>
           <div class="btn-energy-field trig-field"></div>
           <span class="btn-symbol">cos</span>
           <div class="btn-particle-trail trig-trail"></div>
         </button>
-        
+
         <button class="btn btn-trig operator" value="tan">
           <div class="btn-core trig-core"></div>
           <div class="btn-energy-field trig-field"></div>
           <span class="btn-symbol">tan</span>
           <div class="btn-particle-trail trig-trail"></div>
         </button>
-        
+
         <button class="btn btn-trig operator" value="sin⁻¹">
           <div class="btn-core trig-core"></div>
           <div class="btn-energy-field trig-field"></div>
           <span class="btn-symbol">sin⁻¹</span>
           <div class="btn-particle-trail trig-trail"></div>
         </button>
-        
+
         <button class="btn btn-trig operator" value="cos⁻¹">
           <div class="btn-core trig-core"></div>
           <div class="btn-energy-field trig-field"></div>
           <span class="btn-symbol">cos⁻¹</span>
           <div class="btn-particle-trail trig-trail"></div>
         </button>
-        
+
         <button class="btn btn-trig operator" value="tan⁻¹">
           <div class="btn-core trig-core"></div>
           <div class="btn-energy-field trig-field"></div>
           <span class="btn-symbol">tan⁻¹</span>
           <div class="btn-particle-trail trig-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="abs">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">|x|</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="arg">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">arg</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-function operator" value="conj">
           <div class="btn-core function-core"></div>
           <div class="btn-energy-field function-field"></div>
           <span class="btn-symbol">x̅</span>
           <div class="btn-particle-trail function-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator operator" value=".">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">.</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-equals operator" value="=">
           <div class="btn-core equals-core"></div>
           <div class="btn-energy-field equals-field"></div>
           <span class="btn-symbol">=</span>
           <div class="btn-quantum-burst"></div>
         </button>
-        
+
         <button class="btn btn-solve operator" value="solve">
           <div class="btn-core solve-core"></div>
           <div class="btn-energy-field solve-field"></div>
@@ -1186,11 +1193,11 @@
         </button>
       </div>
     </div>
-    
+
     <!-- Matrices Mode -->
     <div class="calculator-mode" id="matrices-mode">
       <div class="mode-ambient-glow matrix-glow"></div>
-      
+
       <div class="matrix-controls">
         <div class="control-panel">
           <div class="panel-glow"></div>
@@ -1202,7 +1209,7 @@
             <option value="transpose">Transpose</option>
           </select>
         </div>
-        
+
         <div class="control-panel">
           <div class="panel-glow"></div>
           <select id="matrix-size">
@@ -1211,17 +1218,17 @@
           </select>
         </div>
       </div>
-      
+
       <div class="matrix-input" id="matrix-a">
         <div class="matrix-border"></div>
         <!-- Generated dynamically based on size -->
       </div>
-      
+
       <div class="matrix-input" id="matrix-b" style="display:none;">
         <div class="matrix-border"></div>
         <!-- Generated dynamically based on size -->
       </div>
-      
+
       <div class="buttons">
         <button class="btn btn-clear operator" value="clear-matrix">
           <div class="btn-core clear-core"></div>
@@ -1229,127 +1236,127 @@
           <span class="btn-symbol">CLEAR</span>
           <div class="btn-warning-glow"></div>
         </button>
-        
+
         <button class="btn btn-matrix operator" value="fill-identity">
           <div class="btn-core matrix-core"></div>
           <div class="btn-energy-field matrix-field"></div>
           <span class="btn-symbol">I</span>
           <div class="btn-particle-trail matrix-trail"></div>
         </button>
-        
+
         <button class="btn btn-matrix operator" value="fill-zeros">
           <div class="btn-core matrix-core"></div>
           <div class="btn-energy-field matrix-field"></div>
           <span class="btn-symbol">0</span>
           <div class="btn-particle-trail matrix-trail"></div>
         </button>
-        
+
         <button class="btn btn-matrix operator" value="fill-ones">
           <div class="btn-core matrix-core"></div>
           <div class="btn-energy-field matrix-field"></div>
           <span class="btn-symbol">1</span>
           <div class="btn-particle-trail matrix-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="1">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">1</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="2">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">2</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="3">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">3</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="4">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">4</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="5">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">5</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="6">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">6</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="7">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">7</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="8">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">8</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="9">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">9</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-number" value="0">
           <div class="btn-core"></div>
           <div class="btn-energy-field"></div>
           <span class="btn-symbol">0</span>
           <div class="btn-particle-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator" value="-">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">−</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-operator" value=".">
           <div class="btn-core operator-core"></div>
           <div class="btn-energy-field operator-field"></div>
           <span class="btn-symbol">.</span>
           <div class="btn-particle-trail operator-trail"></div>
         </button>
-        
+
         <button class="btn btn-calculate operator" value="calculate-matrix">
           <div class="btn-core calculate-core"></div>
           <div class="btn-energy-field calculate-field"></div>
-          <span class="btn-symbol">CALCULATE</span>
+          <span class="btn-symbol calculate-text">CALCULATE</span>
           <div class="btn-quantum-burst"></div>
         </button>
       </div>
     </div>
   </div>
 
-<div class="developer-credit">
+  <div class="developer-credit">
     <a href="https://eccentriccoder01.github.io/Me" target="_blank" class="explorer-signature" title="Visit My World">
-        Developed by <span class="eccentric">Eccentric Explorer</span>
+      Developed by <span class="eccentric">Eccentric Explorer</span>
     </a>
-</div>
+  </div>
 
   <script src="js/core.js"></script>
   <script src="js/arithmetic.js"></script>
@@ -1360,4 +1367,5 @@
   <script src="js/mode-switcher.js"></script>
   <script src="js/theme.js"></script>
 </body>
+
 </html>
