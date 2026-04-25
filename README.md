@@ -20,24 +20,24 @@ HyperMathix is driven by the core mission of providing a dynamic and engaging pl
 ## 🚀 Live Demo
 
 Experience HyperMathix live here: 
-👉 [![**HyperMathix**](https://img.shields.io/badge/View-Live%20Demo-orange?style=for-the-badge)](https://eccentriccoder01.github.io/HyperMathix)
+👉 [![**HyperMathix**](https://img.shields.io/badge/View-Live%20Demo-orange?style=for-the-badge)](https://theeccentriccoder.github.io/HyperMathix)
 
  <div align="center">
  <p>
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat)
-![Visitors](https://api.visitorbadge.io/api/Visitors?path=eccentriccoder01%2FHyperMathix%20&countColor=%23263759&style=flat)
-![GitHub Forks](https://img.shields.io/github/forks/eccentriccoder01/HyperMathix)
-![GitHub Repo Stars](https://img.shields.io/github/stars/eccentriccoder01/HyperMathix)
-![GitHub Contributors](https://img.shields.io/github/contributors/eccentriccoder01/HyperMathix)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/eccentriccoder01/HyperMathix)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/eccentriccoder01/HyperMathix)
-![Github](https://img.shields.io/github/license/eccentriccoder01/HyperMathix)
-![GitHub Issues](https://img.shields.io/github/issues/eccentriccoder01/HyperMathix)
-![GitHub Closed Issues](https://img.shields.io/github/issues-closed-raw/eccentriccoder01/HyperMathix)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/eccentriccoder01/HyperMathix)
-![GitHub Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/eccentriccoder01/HyperMathix)
+![Visitors](https://api.visitorbadge.io/api/Visitors?path=theeccentriccoder%2FHyperMathix%20&countColor=%23263759&style=flat)
+![GitHub Forks](https://img.shields.io/github/forks/theeccentriccoder/HyperMathix)
+![GitHub Repo Stars](https://img.shields.io/github/stars/theeccentriccoder/HyperMathix)
+![GitHub Contributors](https://img.shields.io/github/contributors/theeccentriccoder/HyperMathix)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/theeccentriccoder/HyperMathix)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/theeccentriccoder/HyperMathix)
+![Github](https://img.shields.io/github/license/theeccentriccoder/HyperMathix)
+![GitHub Issues](https://img.shields.io/github/issues/theeccentriccoder/HyperMathix)
+![GitHub Closed Issues](https://img.shields.io/github/issues-closed-raw/theeccentriccoder/HyperMathix)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/theeccentriccoder/HyperMathix)
+![GitHub Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/theeccentriccoder/HyperMathix)
  </p>
  </div>
 
@@ -133,7 +133,7 @@ To run Sagnik's HyperMathix:
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/eccentriccoder01/hypermathix.git](https://github.com/eccentriccoder01/hypermathix.git) # Assuming a repo named hypermathix
+git clone [https://github.com/theeccentriccoder/hypermathix.git](https://github.com/theeccentriccoder/hypermathix.git) # Assuming a repo named hypermathix
 cd hypermathix
 ````
 
@@ -185,6 +185,6 @@ This project is open-source and available under the MIT License.
 
 ## 📞 Contact
 
-Developed by [Eccentric Explorer](https://eccentriccoder01.github.io/Me)
+Developed by [Eccentric Explorer](https://theeccentriccoder.github.io/Me)
 
 Feel free to reach out with any questions or feedback\!
